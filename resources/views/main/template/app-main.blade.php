@@ -28,6 +28,7 @@
     @include('main.template.footer')
   </footer>
 
+  <script src="{{ asset('js/main/navbar.js') }}"></script>
   {{-- JS --}}
   @yield('js')
 </html>
