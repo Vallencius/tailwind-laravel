@@ -25,15 +25,15 @@
         </ul> 
     </div>
   </div>
-  <div class="flex flex-row">
-    <a href="/">
-      <img src={{ asset('images/logo/discord.png') }} class="p-4 m-auto rounded-full"/>
+  <div class="flex flex-row w-full">
+    <a href="/" class="ml-auto">
+      <img src={{ asset('images/logo/discord-mark-white.png') }} class="p-4 m-auto rounded-full w-16"/>
     </a>
     <a href="/">
-      <img src={{ asset('images/logo/github.png') }} class="p-4 m-auto rounded-full"/>
+      <img src={{ asset('images/logo/github-mark-white.png') }} class="p-4 m-auto rounded-full w-16"/>
     </a>
-    <a href="/">
-      <img src={{ asset('images/logo/line.png') }} class="p-4 m-auto rounded-full"/>
+    <a href="/" class="mr-auto">
+      <img src={{ asset('images/logo/line.png') }} class="p-4 m-auto rounded-full w-16"/>
     </a>
   </div>
   <div class="w-full text-white text-center text-xs py-1">
